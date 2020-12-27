@@ -1,0 +1,52 @@
+.website-background-black {
+	background-color: white;
+	background-image: url(image/white.JPG);
+	background-repeat: no-repeat;
+	background-position: right top;
+    background-size: cover;
+    -webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+    /*#0b0b0b*/
+}
+
+h1 {
+	font-size: 5em;
+/*	font-family: 'Rubik', sans-serif;
+*/    font-family: Helvetica;
+	color: white;
+	cursor: pointer;
+	text-rendering: optimizeLegibility;
+	
+}
+#red {
+	color: red;
+}
+
+.container {
+    padding: 32px;
+    margin: 32px;
+    margin-left: 50px
+    text-align: initial;
+}
+
+
+
+html, body {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    min-width:600px;
+    max-height:800px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-size: calc(1em + 0.2vw);
+}
+
+
+
+
+
+

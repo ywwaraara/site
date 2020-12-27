@@ -1,0 +1,86 @@
+.body {
+	max-width: none;
+	margin: 0px;
+	font-family: Helvetica;
+	min-height: 100%;
+	display: block;
+}
+
+.container {
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.content {
+	display: flex;
+	margin-right: 0px;
+	margin-left: 0px;
+	flex-wrap: nowrap;
+}
+.aboutphoto {
+	-webkit-box-flex: 0;
+	flex: 0 0 auot;
+}
+img {
+	width: 80vh;
+    height: 70vh;
+	display: inline-block;
+}
+.aboutintro {
+	font-family: Helvetica;
+	color: #353535;
+    font-size: 14px;
+    line-height: 20px;
+   /* margin-top: 84px;*/
+    margin-left: 2vw;
+}
+.heading {
+	margin-left: 0px;
+	font-family: Helvetica;
+	font-size: 8vw;
+	line-height: 10vw;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.paragraph {
+	margin-bottom: 16px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 26px;
+}
+.footer {
+/*	background-color: #f0f0f0;
+*/}
+.footercon {
+	display: flex;
+	height: 260px;
+	padding: 40px 40px 10px;
+	algin
+}
+.footerp {
+	font-family: Helvetica;
+	font-size: 1rem;
+	color: #555;
+}
+.email {
+	flex: auto;
+}
+.social {
+	font-family: Helvetica;
+	font-size: 1rem;
+/*	color: #555;
+*/	text-decoration: none;
+	margin: 16px 0;
+	font-style: normal;
+	color: inherit;
+}
+
+
+
+
+
