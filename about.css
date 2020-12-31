@@ -3,7 +3,7 @@
 	margin: 0px;
 	font-family: Helvetica;
 	min-height: 100%;
-	display: block;
+/*	display: block;*/
 }
 
 .container {
@@ -27,7 +27,7 @@
 }
 img {
 	width: 50vh;
-    height: 50vh;
+  height: 50vh;
 	display: inline-block;
 }
 .aboutintro {
@@ -53,12 +53,77 @@ img {
 	font-size: 20px;
 	line-height: 26px;
 }
+
+/* two projects */
+
+.project-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.project-image {
+  display: block;
+  width: 30vh;
+  height: 30vh;
+}
+.wrapper {
+  justify-content: space-evenly;
+  font-family: helventica;
+/*  width: 80%;*/
+  margin: 0 auto;
+  position: relative;
+}
+.c-content {
+  white-space: nowrap;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #555;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.content span {
+  font-size: 15px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  width: 30vh;
+  height: 0;
+  transition: .5s ease;
+  overflow: hidden;
+}
+.wrapper:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+
+/* footer */
 .footer {
-/*	background-color: #f0f0f0;
-*/}
+	background-color: white;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .footercon {
 	display: flex;
-	height: 260px;
+	height: 80px;
 	padding: 40px 40px 10px;
 	algin
 }
@@ -83,8 +148,4 @@ img {
 	font-style: normal;
 	color: inherit;
 }
-
-
-
-
 
