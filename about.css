@@ -87,7 +87,15 @@ img {
   font-size: 20px;
   overflow: hidden;
 }
-
+.project_index {
+  display: flex;
+  justify-content: space-between;
+}
+.a {
+  margin-top: 100px;
+  text-decoration: underline;
+  color: #555;
+}
 a:-webkit-any-link {
   text-decoration: none;
 }
