@@ -13,42 +13,72 @@
 
     <!-- CSS -->
     <link href="work.css" rel="stylesheet" type="text/css">
-    </head>
+  </head>
 
   <body>
-  <!-- home banner -->
-    <div class="banner">
-      <h1>
-        <div class="banner-header">
-          <a href="about.html" style=" text-decoration: none; color: white;">
-            <div onmouseover="changeText(this,'About')" onmouseout="changeText(this,'Hello.')" href="#">Hello.</div>
-          </a>
-        </div>
-
-        <div class="banner-header">
-          <a href="work.html" id="banner-a-change-color">
-            <div onmouseover="changeText(this,'Work')" onmouseout="changeText(this,'I am')">I am</div>
-          </a>
-        </div>
-
-        <div class="banner-header">
-          <a href="contact.html"id="banner-a-change-color">
-            <div onmouseover="changeText(this,'Contact')" onmouseout="changeText(this,'Arana')">Arana</div>
-          </a>
-        </div>
-      </h1>
-    </div>
-
-  <!-- project section  -->
-    <div class="project-section">
-      <div class="wrapper">
-        <div class="project-heading">
-          <h5>Selected projects</h5>
-          <h2>Case studies</h2>
+  <!-- home banner start -->
+  <div class="container loaded">
+    <section class="home-top">
+      <img src="image/white.JPG" alt="designer">
+      <div class="banner-header-wrapper">
+        <div class="banner-header-row">
+          <div class="banner-header-words">
+            <a href="about.html" style=" text-decoration: none; color: white;">
+              <h1 onmouseover="changeText(this,'About')" onmouseout="changeText(this,'Hello.')" href="#">Hello.</h1>
+            </a>
+            <a href="work.html" id="banner-a-change-color">
+              <h1  onmouseover="changeText(this,'Work')" onmouseout="changeText(this,'I am')">I am</h1>
+            </a>
+            <a href="contact.html"id="banner-a-change-color">
+              <h1  onmouseover="changeText(this,'Contact')" onmouseout="changeText(this,'Arana')">Arana</h1>
+            </a>
+          </div>
         </div>
       </div>
 
-    </div>
+    </section>
+  <!-- home banner end -->
+
+  <!-- project section start-->
+    <!-- <section class="home-project">
+      <div class="project-wrapper">
+        <div class="project-heading">
+          <h5>Selected projects</h5>
+          <h1>Projects</h1>
+        </div> -->
+<!--
+        <div class="project-list">
+          <div class="project-list-item">
+            <img src="image/ebae.jpg" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-content">
+                <span>E-Bae</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="project-list-item">
+            <img src="image/c3.jpg" alt="" class="project-image">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <span>Heji</span>
+                </div>
+              </div>
+          </div>
+        </div>
+
+ -->
+
+      </div>
+    </section>
+  </div>
+
+
+
+
+  <!-- project section end-->
 
 
   <!-- Javascript -->
@@ -58,4 +88,4 @@
 </html>
 
 
-<!-- https://www.dejan.works/ -->
+transform: translate(50%, -100%);
