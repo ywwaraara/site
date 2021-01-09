@@ -1,6 +1,6 @@
 .website-background-black {
-	background-color: white;
-	background-repeat: no-repeat;
+/*	background-color: white;
+*/	background-repeat: no-repeat;
 	background-position: right top;
     background-size: cover;
     -webkit-transition: all .3s ease-in-out;
