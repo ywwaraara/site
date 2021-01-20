@@ -1,62 +1,121 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Description -->
-		<meta name="author" content="Arana Wang"/>
-		<meta name="description" content="I am a front end developer."/>
-		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Description -->
+    <meta name="author" content="Arana Wang"/>
+    <meta name="description" content="I am a front end developer."/>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Title -->
-		<title>Arana Wang</title>
+    <!-- Title -->
+    <title>Portfolio | Arana Wang</title>
 
-		<!-- CSS -->
-		<link href="style.css" rel="stylesheet" type="text/css">
-    </head>
+    <!-- CSS -->
+    <link href="work.css" rel="stylesheet" type="text/css">
+  </head>
 
-<body class="website-background-black">
-<!-- home banner -->
-	<div class="container">
-		<h1>
-			<div class="text-color-white hide-text-block">
-        <a href="about.html" style=" text-decoration: none; color: white;">
-				  <div onmouseover="changeText(this,'About')" onmouseout="changeText(this,'Hello')" href="#">Hello</div>
-			   </a>
+  <body>
+  <!-- home banner start -->
+  <div class="container loaded">
+    <section class="home-top">
+      <img src="image/white.JPG" alt="designer">
+      <div class="banner-header-wrapper">
+        <div class="banner-header-row">
+          <div class="banner-header-words">
+            <a href="about.html" style=" text-decoration: none; color: white;">
+              <h1 onmouseover="changeText(this,'About')" onmouseout="changeText(this,'Hello.')" href="#">Hello.</h1>
+            </a>
+            <a href="work.html" id="banner-a-change-color">
+              <h1  onmouseover="changeText(this,'Work')" onmouseout="changeText(this,'I am')">I am</h1>
+            </a>
+            <a href="contact.html"id="banner-a-change-color">
+              <h1  onmouseover="changeText(this,'Contact')" onmouseout="changeText(this,'Arana')">Arana</h1>
+            </a>
+          </div>
+        </div>
       </div>
 
-			<div class="text-color-red hide-text-block" id="red">
-        <a href="work.html">
-				  <div onmouseover="changeText(this,'Work')" onmouseout="changeText(this,'I am')">I am</div>
-        </a>
-			</div>
+    </section>
+  <!-- home banner end -->
 
-			<div class="text-color-red hide-text-block" id="red">
-        <a href="contact.html">
-				  <div onmouseover="changeText(this,'Contact')" onmouseout="changeText(this,'Arana')">Arana</div>
-        </a>
-			</div>
-		</h1>
-	</div>
-
-
-<!-- project section  -->
-  <div class="project-section">
-    <div class="wrapper">
+  <!-- project section start-->
+    <section class="home-project">
       <div class="project-heading">
-        <h5>Selected projects</h5>
-        <h2>Case studies</h2>
+          <h5>Selected projects</h5>
+          <h1>Projects</h1>
       </div>
-    </div>
+      <div class="project-wrapper">
 
+
+        <div class="project-list">
+          <div class="project-list-item">
+            <img src="image/ebae.jpg" alt="" class="project-image">
+            <div class="overlay">
+              <div class="overlay-content">
+                <span>E-Bae</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="project-list-item">
+            <img src="image/heji.jpg" alt="" class="project-image">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <span>Heji</span>
+                </div>
+              </div>
+          </div>
+        </div>
+<!--
+        <div class="project-list">
+          <div class="project-list-item">
+            <img src="image/c4.jpg" alt="" class="project-image">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <span>OnTap</span>
+                </div>
+              </div>
+          </div>
+        </div>
+ -->
+
+
+      </div>
+    </section>
   </div>
 
 
-<!-- Javascript -->
-<script src="homepage.js"></script>
 
-</body>
+
+  <!-- project section end-->
+
+  <!-- footer  -->
+  <div class="footer">
+    <div class="footercon">
+      <div class="email">
+        <p class="footerp">
+          ©
+          <script> document.write(new Date().getFullYear()); </script>
+          Arana Wang
+        </p>
+      </div>
+      <div class="social">
+        <a href="#" target="_blank" title="Linkedin" class="footerletter">LinkedIn | </a>
+        <a href="#" target="_blank" title="Resume" class="footerletter">Resume</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="homepage.js"></script>
+
+  </body>
 </html>
 
 
-<!-- https://www.dejan.works/ -->
+<!-- transform: translate(50%, -100%);
+ -->

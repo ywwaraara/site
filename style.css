@@ -68,11 +68,47 @@ html, body {
 }*/
 .modal-content h4 {
   font-family: Helvetica;
-  color: #353535;}
+  color: #353535;
 }
+
 .huge-text {
   font-family: Helvetica;
-  color: #353535;}
+  color: #353535;
+}
 
+/* footer */
+.footer {
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footercon {
+  display: flex;
+  height: 80px;
+  padding: 40px 40px 10px;
+  algin
+}
+.footerp {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: #555;
+}
+.footerletter {
+  text-decoration: none;
+  color: #555555;
+}
+.email {
+  flex: auto;
+}
+.social {
+  font-family: Helvetica;
+  font-size: 1rem;
+/*  color: #555;
+*/  text-decoration: none;
+  margin: 16px 0;
+  font-style: normal;
+  color: inherit;
+}
 
 
